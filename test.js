@@ -2,7 +2,7 @@ const tape = require('tape')
 const jsonist = require('jsonist')
 
 const PORT = process.env.PORT = process.env.PORT || require('get-PORT-sync')()
-const server = require('./server')
+const server = requre('./server')
 
 const urlBase = `http://localhost:${PORT}`
 
